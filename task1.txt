@@ -1,0 +1,21 @@
+Difference between HTTP1.1 vs HTTP2
+-----------------------------------
+
+HTTP1.1
+-------
+-> HTTP was published 1997. Its World Wide Web(WWW) protocol.
+-> World Wide Web(WWW) which runs TCP/IP protocol stack.
+-> HTTP is based on a client-server model. Its model is explained as two computers, a server and a client, that communicate via request and response.
+    client model - Receiver of service
+    server model - provider of service
+-> Single request/reponse at a time, browser use multiple connection to achieve concurrent request and response
+-> Request and response text based
+
+HTTP2
+-----
+-> HTTP2 Published in 2015 for providing more improvements over http1.1
+-> Its uses binary data for communication between client and server. faster web page loading compare to http1.1 protocol
+-> Multiplexing : Multiple requests and responses are sent at a time over single connection
+-> Supports HTTPS encryption protocol
+-> to support flow control
+-> Supports binary format which is more efficient than text based format used in HTTP1.1

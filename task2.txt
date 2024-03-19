@@ -1,0 +1,24 @@
+Objects and its internal representation in Javascript:
+-------------------------------------------------------
+
+-> Objects are data types in javaScript
+-> Objects are different than primitive data types(for eg:number, string, boolean, undefined,null)
+-> Primitive data types contains one value but objects can hold many values for of key:value pair.
+-> These keys can be variable or functions and are called properties and methods, respectively in the context of an object.
+-> Every object has some property associated with some value
+
+var myCar = new Object();
+myCar.make = 'Hyundai';
+myCar.model = 'Creta';
+myCar.year = 2015;
+
+The syntax for adding property to an object is:
+-----------------------------------------------
+objectname.objectproperty =propertyvalue
+myCar.color= 'White'
+
+The syntax to access a property from an object is:
+--------------------------------------------------
+objectname.property (or)
+objectname['property']
+myCar.color
